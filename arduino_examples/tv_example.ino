@@ -5,9 +5,9 @@
 #include <ArduinoJson.h>
 #include <StreamString.h>
 
-#define API_KEY "" // TODO: Change to your sinric API Key. Your API Key is displayed on sinric.com dashboard
-#define SSID_NAME "" // TODO: Change to your Wifi network SSID
-#define WIFI_PASSWORD "" // TODO: Change to your Wifi network password
+#define API_KEY "5ccee582ac127b467db59aa5" // TODO: Change to your sinric API Key. Your API Key is displayed on sinric.com dashboard
+#define SSID_NAME "freebox_player" // TODO: Change to your Wifi network SSID
+#define WIFI_PASSWORD "27072010290319721404197225101998" // TODO: Change to your Wifi network password
 #define SERVER_URL "iot.sinric.com"
 #define SERVER_PORT 80
 
