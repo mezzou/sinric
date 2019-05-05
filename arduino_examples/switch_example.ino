@@ -13,9 +13,9 @@ ESP8266WiFiMulti WiFiMulti;
 WebSocketsClient webSocket;
 WiFiClient client;
 
-#define MyApiKey "" // TODO: Change to your sinric API Key. Your API Key is displayed on sinric.com dashboard
-#define MySSID "" // TODO: Change to your Wifi network SSID
-#define MyWifiPassword "" // TODO: Change to your Wifi network password
+#define MyApiKey "2a3df8a2-6fac-44f1-a750-25b96fa98535" // TODO: Change to your sinric API Key. Your API Key is displayed on sinric.com dashboard
+#define MySSID "freebox" // TODO: Change to your Wifi network SSID
+#define MyWifiPassword "27072010290319721404197225101998" // TODO: Change to your Wifi network password
 
 #define HEARTBEAT_INTERVAL 300000 // 5 Minutes 
 
@@ -26,12 +26,12 @@ bool isConnected = false;
 // deviceId is the ID assgined to your smart-home-device in sinric.com dashboard. Copy it from dashboard and paste it here
 
 void turnOn(String deviceId) {
-  if (deviceId == "5axxxxxxxxxxxxxxxxxxx") // Device ID of first device
+  if (deviceId == 5ccee582ac127b467db59aa5") // Device ID of first device
   {  
     Serial.print("Turn on device id: ");
     Serial.println(deviceId);
   } 
-  else if (deviceId == "5axxxxxxxxxxxxxxxxxxx") // Device ID of second device
+  else if (deviceId == "5ccee582ac127b467db59aa5") // Device ID of second device
   { 
     Serial.print("Turn on device id: ");
     Serial.println(deviceId);
